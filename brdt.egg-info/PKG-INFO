@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: brdt
+Version: 0.1.0
+Summary: Binomial Reliability Demonstration Tests Design
+Home-page: https://github.com/ericchen12377/BRDT-Python
+Author: Suiyao Chen
+Author-email: csycsy12377@gmail.com
+License: UNKNOWN
+Description: # brdt
+         Binomial Reliability Demonstration Tests, Python package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

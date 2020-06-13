@@ -1,0 +1,6 @@
+README.md
+setup.py
+brdt.egg-info/PKG-INFO
+brdt.egg-info/SOURCES.txt
+brdt.egg-info/dependency_links.txt
+brdt.egg-info/top_level.txt
