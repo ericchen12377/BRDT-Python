@@ -8,6 +8,22 @@ Author-email: csycsy12377@gmail.com
 License: UNKNOWN
 Description: # BRDT-Python
          Binomial Reliability Demonstration Tests, Python package
+         
+        ## Description
+        This package provides the Bayesian methods to get the optimal test sample size in binomial reliability demonstration tests design.
+        * Conventional Binomial RDT: the package implements the conventional test design using failure count data and assuming binomial failure distributions over the testing period. Binomial RDT can also be referred to as binomial test or attribute test.
+        * Binomial RDT with Acceptance Uncertainty: the package implements the design methods to quantify the BRDT acceptance decision uncertainty and evaluate the cost impacts on related reliability assurance activities. Optimal test plans with minimum overall costs can be obtained.
+        * Data generator: the package implements a data generator to generate the test plans dataset with specific design settings.
+        
+        ## Reference
+        This is the Python package implementation for the design methods of binomial reliabiltiy demonstration tests (BRDTs) with failure count data. The acceptanace decision uncertainty of BRDT has been quantified and the impacts of the uncertainty on related reliability assurance activities such as reliability growth and warranty services are evaluated. The original work is from one of the research projects listed on [Suiyao Chen's Homepage](https://sites.google.com/mail.usf.edu/suiyaochen-professional/publication?authuser=0). 
+        
+        The paper [Optimal Binomial Reliability Demonstration Tests Design under Acceptance Decision Uncertainty](https://www.tandfonline.com/doi/full/10.1080/08982112.2020.1757703) has been published in [Quality Engineering](https://www.tandfonline.com/doi/full/10.1080/08982112.2020.1757703). To cite this paper, please use 
+        > Suiyao Chen, Lu Lu, Qiong Zhang & Mingyang Li (2020) Optimal binomial reliability demonstration tests design under acceptance decision uncertainty, Quality Engineering, DOI: 10.1080/08982112.2020.1757703
+        
+        ## Installation
+        
+        ## Examples
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
