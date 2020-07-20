@@ -60,6 +60,7 @@ class Data:
         res['Warranty_Services_Cost'] = WS_list
         res['Warranty_Services_Failure_Probability'] = WS_failureprob_list
         res['Warranty_Services_Cost_exp'] = WS_exp_list
+        res['Cost_exp'] = cost_list
 
         return res
     
@@ -111,6 +112,7 @@ class Data:
         res['Warranty_Services_Cost'] = WS_list
         res['Warranty_Services_Failure_Probability'] = WS_failureprob_list
         res['Warranty_Services_Cost_exp'] = WS_exp_list
+        res['Cost_exp'] = cost_list
 
         return res
 
@@ -121,6 +123,6 @@ if __name__ == '__main__':
     pi = Prior.Prior(name = 'Beta', size = 1000, par = [1, 1], random_state = 1234).Prior_MCsim()
     p = Data(name = 'Binomial', pi = pi, cost_fix = 0.5, cost_var = 1, \
         sales_volume = 1, cost_warranty = 0.8, cost_reliability_growth = 10)
-    #print(p.All_Data(n_list = [0,1,2,3,4], c_list = [0,1,2], R_list = [0.5, 0.6, 0.7]).head())
+    print(p.All_Data(n_list = [0,1,2,3,4], c_list = [0,1,2], R_list = [0.5, 0.6, 0.7]).head())
     print(p.Optimal_Data(c_list = [0,1,2], R_list = [0.5, 0.6, 0.7], thres_CR = 0.05))
 
